@@ -4,7 +4,7 @@ sudo apt-get update
 
 if [[ ! -e $HOME/.rbenv ]]; then
   echo "Install packages"
-  sudo apt-get install -y git build-essential libssl-dev libcurl4-openssl-dev libreadline-dev libsqlite3-dev
+  sudo apt-get install -y git autoconf bison build-essential libssl-dev libcurl4-openssl-dev libreadline-dev libsqlite3-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm3 libgdbm-dev
 
   echo "Install rbenv"
   git clone https://github.com/sstephenson/rbenv.git $HOME/.rbenv
