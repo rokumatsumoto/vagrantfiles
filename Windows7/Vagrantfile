@@ -1,0 +1,15 @@
+Vagrant.configure("2") do |config|
+  config.vm.box = "ferhaty/win7ie10winrm"
+  config.vm.guest = :windows
+  config.vm.provider "virtualbox" do |vb|
+    vb.memory = "2048"
+    vb.cpus = "2"
+    vb.customize ['modifyvm', :id, '--cableconnected1', 'on']
+  end
+
+  config.vm.synced_folder ".", "/vagrant", disabled: true
+
+  config.ssh.username = "vagrant"
+  config.ssh.password = "vagrant"
+  config.ssh.insert_key = false
+end
