@@ -44,7 +44,7 @@ ruby dk.rb install
 ```
 
 
-####  Download and Install Uru (Ruby version manager on Windows, rbenv like on *nix)
+####  Download and Install Uru (Ruby version manager for Windows, rbenv like on *nix)
 
 https://bitbucket.org/jonforums/uru/wiki/Chocolatey
 
