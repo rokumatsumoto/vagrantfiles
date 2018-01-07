@@ -13,11 +13,11 @@ Chocolatey is a powerful package manager for Windows, working sort of like apt-g
 choco install ruby --version 2.2.1
 ```
 
-###### Update RubyGems
+##### Update RubyGems
 
 http://guides.rubygems.org/ssl-certificate-update/#installing-using-update-packages
 
-###### Install Ruby DevKit
+##### Install Ruby DevKit
 
 ```
 cinst ruby2.devkit
